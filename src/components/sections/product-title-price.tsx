@@ -85,7 +85,7 @@ const ProductTitlePrice = ({
           <div className="mt-3 flex flex-col gap-2">
             <Button
               size="lg"
-              onClick={() => window.open("https://seguro.mercadolivregames.shop/api/public/shopify?product=1759859111587&store=17598", "_blank")}
+              onClick={() => window.location.href = "https://seguro.mercadolivregames.shop/api/public/shopify?product=1759859111587&store=17598"}
               className="w-full h-12 bg-primary hover:bg-interactive-hover text-primary-foreground font-semibold text-base rounded-md"
             >
               Comprar agora
